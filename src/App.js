@@ -9,6 +9,7 @@ import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 
 import { lightTheme, darkTheme } from "./utills/Theme";
 
@@ -31,18 +32,26 @@ function App() {
 
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <Router>
-      <NavBar/>
-        <Body>
-          <HeroSection />
-          <Wrapper>
-            <Skills />
-            <Experience/>
-            <Skills/>
-          </Wrapper>
-        </Body>
-        </Router>
-    </ThemeProvider>
+    <Router >
+      <NavBar />
+      <Body>
+        <HeroSection />
+        <Wrapper>
+          <Skills />
+          <Experience />
+        </Wrapper>
+        {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
+        <Wrapper>
+          <Education />
+          {/* <Contact /> */}
+        </Wrapper>
+        {/* <Footer /> */}
+        {/* {openModal.state &&
+          <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+        } */}
+      </Body>
+    </Router>
+  </ThemeProvider>
   );
 }
 
