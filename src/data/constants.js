@@ -300,7 +300,7 @@ export const projects = [
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Javascript"],
     category: "web app",
     github: "https://github.com/ayabelarbi/BirdyApp",
-    webapp: "https://podstream.netlify.app/",
+    webapp: "https://birdy-app-frontend-e95r30fpy-ayabelarbis-projects.vercel.app/",
     member: [
       {
         name: "Aya B.",
