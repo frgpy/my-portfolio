@@ -2,6 +2,8 @@ import React from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
 import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroStyle'
 import HeroImg from '../../images/HeroImage.jpg'
+import HeroImg2 from '../../images/HeroImage-1.jpg'
+import HeroImg3 from '../../images/HeroImage-2.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 
@@ -33,7 +35,7 @@ const HeroSection = () => {
 
                 <HeroRightContainer id="Right">
 
-                    <Img src={HeroImg} alt="hero-image" />
+                    <Img src={HeroImg3} alt="hero-image" />
                 </HeroRightContainer>
             </HeroInnerContainer>
 
