@@ -12,7 +12,7 @@ import { experiences } from '../../data/constants';
 import { Container, Wrapper, Title, Desc,TIme, TimelineSection } from './ExperienceStyledComponent';
 
 
-const Experience = () => {
+const Experience = ({darkMode, setDarkMode}) => {
     return (
         <Container id="experience">
             <Wrapper>
@@ -29,7 +29,7 @@ const Experience = () => {
                                     {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    <ExperienceCard experience={experience}/>
+                                    <ExperienceCard experience={experience} darkMode={darkMode} setDarkMode={setDarkMode}/>
                                 </TimelineContent>
                             </TimelineItem>
                         ))}

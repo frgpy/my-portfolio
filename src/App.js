@@ -52,7 +52,7 @@ function App() {
           <HeroSection />
           <Wrapper>
             <Skills />
-            <Experience />
+            <Experience darkMode={darkMode} setDarkMode={setDarkMode}/>
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
