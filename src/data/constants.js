@@ -300,7 +300,7 @@ export const projects = [
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Javascript"],
     category: "web app",
     github: "https://github.com/ayabelarbi/BirdyApp",
-    webapp: "https://birdy-app-frontend-e95r30fpy-ayabelarbis-projects.vercel.app/",
+    webapp: "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmNk5PMvaLsR2rsgtgELtqjVEXn7gvPW4eMjR7zr6ptswG",
     member: [
       {
         name: "Aya B.",
