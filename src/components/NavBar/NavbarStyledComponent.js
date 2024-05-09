@@ -74,7 +74,7 @@ export const NavLink = styled.a`
   }
 `;
 
-export const GitHubButton = styled.button`
+export const GitHubButton = styled.a`
   background-color: transparent;
   border: 1.8px solid ${({ theme }) => theme.primary};
   justify-content: center;

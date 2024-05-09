@@ -26,6 +26,8 @@ import {
   SwitchThemeButton,
 } from "./NavbarStyledComponent";
 
+console.log('Bio.github', Bio.github)
+
 const Navbar = ({ darkMode, setDarkMode }) => {
   const [isOpen, setIsOpen] = useState(false);
   const theme = useTheme();
@@ -83,7 +85,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           <NavLink href="#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.github}>GitHub profile</GitHubButton>
+          <GitHubButton href={Bio.github} target='display'>GitHub profile</GitHubButton>
         </ButtonContainer>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
@@ -128,14 +130,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               Education
             </MobileLink>
             <GitHubButton
-              style={{
-                padding: "10px 16px",
-                background: `${theme.primary}`,
-                color: "white",
-                width: "max-content",
-              }}
               href={Bio.github}
-              target="_blank"
+             
+              
             >
               Github Profile
             </GitHubButton>
