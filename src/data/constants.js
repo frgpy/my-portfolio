@@ -10,7 +10,7 @@ export const Bio = {
     "I'm a self-learner, passionate and curious to dig deeper and expand my knowledge. With a positive attitude and a growth mindset, I am ready to make meaningful contributions and achieve great things.",
   github: "https://github.com/ayabelarbi",
   resume:
-    "https://drive.google.com/file/d/1fXNEZVzuCJhgjbnIWD46OOnjoeGbQeOU/view?usp=sharing",
+    "https://drive.google.com/file/d/11YmBjZf3b_WZLMege7bzyqtwRwbPXGYa/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/aya-belarbi/",
   twitter: "https://twitter.com/0xaya_",
 };
@@ -169,7 +169,9 @@ export const experiences = [
     role: "Full-stack engineer",
     company: "DUSA Labs",
     date: "September 2023 - Present",
-    desc: "Integrating front-end and enhancing user interaction. Participating in and architecting internal projects to enhance user incentives. Creating content on social media and on the protocol documentation.",
+  desc: [
+      "Integrating front-end and enhancing user interaction. Participating in and architecting internal projects to enhance user incentives. Creating content on social media and on the protocol documentation. Integrating Dusa on Defi Llama.",
+    ],   
     skills: [
       "Blockchain",
       "Smart Contracts",
@@ -200,7 +202,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmYeVsKf9gR8LZFwS2gPgjV9DGpWhPD9L6LSJZyXu8BKWE",
+    img: "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmeTZshxrdR2p5znL1J4rFkHVeQA4u8Bn1ZZzRpmoJDHKz",
     role: "Lead of H.E.R DAO France",
     company: "H.E.R DAO",
     date: "October 2022 - Present",
@@ -223,12 +225,12 @@ export const experiences = [
   },
   {
     id: 3,
-    img: "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmdGDQznJdooXpqS7XxdAtqDcKHh2ouq1foeU5bFU7GQf2",
+    img: "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmPvFeAKQXDSYQxqmwsrtFnGjpLRVE3vxjy96UPut4prok",
     role: "Vice President of Kryptosphere at Sorbonne University  ",
     company: "KRYPTOSPHERE",
     date: "May 2023 - May 2024",
     desc: "Spearheaded blockchain initiatives at the university by establishing Kryptosphere at Sorbonne University. Led educational conference about blockchain and cryptocurrencies.",
-    doc: "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmVfnUUduRrPajCKALTUNrtcg4yan4w1j6c5H9h8GJSEmQ",
+    doc: "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmdGoZsx6JQ2MKs7RqU3Kwx5BYNPJaPqQyveBb9vS1KTns",
   },
   {
     id: 3,
@@ -296,7 +298,7 @@ export const projects = [
     description:
       "Birdy is a social media application. Users of the app can interact with each other, add other users, like posts, and comment.",
     image:
-      "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmbDVbGdi2WBit1nGURPMF6Z5w21cpsFu31iHFK2zHG3ft",
+      "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmezyMicU5dsM3L6ATGo7Ewq7dvHGDqWr2XekqbSk1pMfc",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Javascript"],
     category: "web app",
     github: "https://github.com/ayabelarbi/BirdyApp",
@@ -343,7 +345,7 @@ export const projects = [
     description:
       "CleanSwap is a service that allows converting small cryptocurrency amounts into native gas tokens of the current blockchain with a single transaction, simplifying portfolio management.",
     image:
-      "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmWTJ1u2Hrb8NvKhXSieRf5bmKtTdRZxnNykQT5QmFjBLU",
+      "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmZoZFhdE4t7ZjgnLVDMN61DXbCQGKmg8hMDhqZxWH21sM",
     tags: ["React Js", "Node Js", "Express Js", "TyperScript"],
     category: "decentralized app",
     github: "",
@@ -382,12 +384,12 @@ export const projects = [
     title: "Grinding Grans ",
     date: "Jul 2022 - Aug 2022",
     description:
-      "Grinding grand is a minting dApp realized in my first intership as a full stack blockchain developer in a motion design agency",
+      "Grinding grans is a minting dApp realized in my first intership as a full stack blockchain developer in a motion design agency",
     image:
-      "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmU3zP3Jeuk4m7h8TxnA8TjxwJAoZF6rQShnmhZkKLiUZY",
+      "https://violet-competitive-emu-409.mypinata.cloud/ipfs/QmUQWeamoSMTwRd7hJs2kBawbfAqcAxEh31sbppZ7Hjwqe",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Javascript"],
     category: "decentralized app",
-    github: "https://github.com/ayabelarbi/BirdyApp",
+    github: "https://github.com/ayabelarbi/internship2022_1703",
     webapp: "https://youtu.be/-avpz00Oavc",
   },
 
