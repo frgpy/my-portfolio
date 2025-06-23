@@ -1,7 +1,6 @@
 import React from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
 import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroStyle'
-import paprika from '/Users/ayafergach/Desktop/my-portfolio/src/images/paprika.JPG'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 
@@ -32,8 +31,7 @@ const HeroSection = () => {
                 </HeroLeftContainer>
 
                 <HeroRightContainer id="Right">
-
-                    <Img src={paprika} alt="hero-image" />
+                    <img src="/paprika.JPG" alt="hero-image" style={{ width: '100%', maxWidth: '300px', borderRadius: '10px' }} />
                 </HeroRightContainer>
             </HeroInnerContainer>
 
