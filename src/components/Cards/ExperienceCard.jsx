@@ -1,9 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import logoW from "../../assets/logo-white.png";
-import logoB from "../../assets/logo-black.png";
-
 import {
   Document,
   Description,
@@ -21,12 +18,10 @@ import {
 } from "./ExperienceCardStyle";
 
 const ExperienceCard = ({ experience, darkMode, setDarkMode }) => {
-  const image = experience.id === 1 ? (darkMode ? logoW : logoB) : experience.img;
-
   return (
     <Card>
       <Top>
-        <Image src={image} />
+        <Image src={experience.img} />
         <Body>
           <Role>{experience.role}</Role>
           <Company>{experience.company}</Company>

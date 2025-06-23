@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import logoB from "../../assets/logo-black.png";
-import logoW from "../../assets/logo-white.png";
 import { FaBars } from "react-icons/fa";
 import { useTheme } from "styled-components";
 import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import ModeNightIcon from "@mui/icons-material/ModeNight";
 
 import { Bio } from "../../data/constants";
+import logoB from "../../assets/logoB.png";
+import logoW from "../../assets/logoW.png";
 
 // import { theme } from "../../utills/Theme";
 
@@ -36,39 +36,15 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          <a
-            style={{
-              display: "flex",
-              alignItems: "center",
-              color: "white",
-              marginBottom: "20;",
-              cursor: "pointer",
-            }}
-          >
-            {/* TODO: display my logo: if the theme color is white, then img = logoB else img : logoW */}
-            {darkMode ? (
-              <>
-                <img
-                  src={logoW}
-                  alt="logo"
-                  style={{ width: "40px", height: "40px" }}
-                />
-                <Span color="white"> Portfolio</Span>
-              </>
-            ) : (
-              <>
-                <img
-                  src={logoB}
-                  alt="logo"
-                  style={{ width: "40px", height: "40px" }}
-                />
-                <Span color="black"> Portfolio</Span>
-              </>
-            )}
-            <SwitchThemeButton onClick={() => setDarkMode(!darkMode)}>
-              {darkMode ? <WbSunnyIcon /> : <ModeNightIcon />}
-            </SwitchThemeButton>
-          </a>
+          <img
+            src={darkMode ? logoW : logoB}
+            alt="logo"
+            style={{ width: "40px", height: "40px", marginRight: "8px" }}
+          />
+          <Span color={darkMode ? "white" : "black"}> Portfolio</Span>
+          <SwitchThemeButton onClick={() => setDarkMode(!darkMode)}>
+            {darkMode ? <WbSunnyIcon /> : <ModeNightIcon />}
+          </SwitchThemeButton>
         </NavLogo>
         <MobileIcon>
           <FaBars

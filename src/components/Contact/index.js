@@ -63,7 +63,7 @@ const ContactForm = styled.form`
   background-color: ${({ theme }) => theme.card};
   padding: 32px;
   border-radius: 16px;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  box-shadow: rgba(70, 2, 80, 0.15) 0px 4px 24px;
   margin-top: 28px;
   gap: 12px;
 `
@@ -129,11 +129,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_yvzvjxl', 'template_slcahkr', form.current, 'UEzkduLGFPp-sX8Ui')
+    emailjs.sendForm('service_elsux8d', 'template_tclc1fn', form.current, 'A8mx7kqqv8uz6nNSp')
       .then((result) => {
+        alert('Email sent!');
         setOpen(true);
         form.current.reset();
       }, (error) => {
+        alert('Failed to send email: ' + error.text);
         console.log(error.text);
       });
   }
