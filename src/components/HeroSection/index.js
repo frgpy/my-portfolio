@@ -31,7 +31,17 @@ const HeroSection = () => {
                 </HeroLeftContainer>
 
                 <HeroRightContainer id="Right">
-                    <img src="/paprika.JPG" alt="hero-image" style={{ width: '100%', maxWidth: '300px', borderRadius: '10px' }} />
+                    <img
+                        src="/paprika.JPG"
+                        alt="hero-image"
+                        style={{
+                            width: '100%',
+                            maxWidth: '300px',
+                            borderRadius: '50%',
+                            objectFit: 'cover',
+                            aspectRatio: '1/1',
+                        }}
+                    />
                 </HeroRightContainer>
             </HeroInnerContainer>
 
