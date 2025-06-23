@@ -40,6 +40,8 @@ const HeroSection = () => {
                             borderRadius: '50%',
                             objectFit: 'cover',
                             aspectRatio: '1/1',
+                            boxShadow: '0 0 8px 2px #3f8efc, 0 0 0 2px #3f8efc',
+                            border: '1.5px solid #3f8efc',
                         }}
                     />
                 </HeroRightContainer>
