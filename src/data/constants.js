@@ -7,7 +7,7 @@ export const Bio = {
     "Rust & Solidity Programmer",
   ],
   description:
-    "Full stack developer passionate about building secure and scalable decentralized applications. I combine frontend, backend and smart contract development to deliver seamless Web3 experiences. Curious and detail-oriented, I turn complex ideas into clean, reliable code.Active in Web3 communities and hackathons, I believe collaboration drives innovation. Let’s build the future of decentralized technology together.",
+    "Full stack developer passionate about building secure and scalable decentralized applications. I combine frontend, backend and smart contract development to deliver seamless Web3 experiences. Curious and detail-oriented, I turn complex ideas into clean, reliable code.Active in Web3 communities and hackathons, I believe collaboration drives innovation. Let's build the future of decentralized technology together.",
   resume: "/cv_web3_2025.pdf",
   twitter: "https://twitter.com/frg__y",
   telegram: "https://t.me/frg_a", 
@@ -131,7 +131,7 @@ export const education = [
     img: "https://imgur.com/W3AhMBn.png",
     school: "Encode Club",
     date: "August - September 2024",
-    desc: "Solidity development, smart contract deployment, gas optimization, security auditing, and dApp integration.",
+    desc: "Solidity development, smart contract deployment, gas optimization, security auditing and dApp integration.",
   },
   
   {
